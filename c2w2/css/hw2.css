@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 10px;
+}
+
+header {
+    background-image: url("../images/flywheel.jpg");
+    background-color: #777613;
+    background-size: cover;
+    height: 175px;
+}
+
+nav {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+nav  a {
+    width: 200px;
+    background-color: #ffffff5c;
+    color: #000000;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 10px 20px;
+    display: inline-block;
+    text-align: center;
+
+    transition-property: background-color, color, border-radius;
+    transition-duration: 0.9s;
+    transition-timing-function: linear;
+    transition-delay: 0.6s;
+}
+
+nav a:hover {
+    color: #7abaff;
+    background-color: #d9505e;
+    border-radius: 50%;
+}
+.active {
+    background-color: #ffffff;
+}
+
+main {
+    display: block;
+    width: 100%;
+}
+.left {
+    width: 20%;
+    display: inline-block;
+    background-color: #777613;
+    padding: 25px;
+    min-height: 100vh;
+    bottom: 0;
+    float: left;
+}
+.left a {
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.left img {
+    border: 2px solid #000000;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+h1 {
+    text-align: center;
+    color: #e8e7e7;
+    font-size: 150%;
+}
+
+h2 {
+    color: #000000;
+}
+
+.right {
+    padding: 15px;
+    border-radius: 3px;
+    position: absolute;
+    display: inline-block;
+    float: right;
+    word-wrap: break-word;
+}
+
+/*
+all page commen p tag
+ */
+p {
+    margin: 15px 0;
+    font-size: 1rem;
+}
+
+
+/*
+History page list
+ */
+ul {
+    position: relative;
+    margin-left: 15px;
+}
+
+li {
+    margin-left: 15px;
+    list-style-type: square;
+}
+
+/*
+Table style for teams page
+ */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table , th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+}
+th {
+    background-color: #1e7e34;
+    color: #e2e3e5;
+}
+ td {
+     background-color: #e2e3e5;
+ }
+
+ td:last-of-type {
+     text-align: center;
+ }
+

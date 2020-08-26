@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 20px;
+}
+
+header {
+    background-color: #b2b2b2;
+    border-radius: 3px;
+}
+
+nav {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+nav > a {
+    background-color: #c5c5c5;
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    background-color: rgba(219, 214, 214, 0.88);
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+h2 {
+    color: #000080;
+}
+
+.right {
+    background-color: #7f7f7f;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+/*
+all page commen p tag
+ */
+p {
+    margin: 15px 0;
+    font-size: 1rem;
+}
+/*
+hidden images
+ */
+img {
+    display: none;
+}
+
+
+/*
+History page list
+ */
+ul {
+    position: relative;
+    margin-left: 15px;
+}
+
+li {
+    margin-left: 15px;
+    list-style-type: square;
+}
+
+/*
+Table style for teams page
+ */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table , th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+}
+th {
+    background-color: #1e7e34;
+    color: #e2e3e5;
+}
+ td {
+     background-color: #e2e3e5;
+ }
+
+ td:last-of-type {
+     text-align: center;
+ }
+
